@@ -46,6 +46,7 @@ pio-proc = "0.2.0"
 dht-sensor = "0.2.1"
 
 [features]
+default=["rtic-monotonic"]
 # Minimal startup / runtime for Cortex-M microcontrollers
 rt = ["rp2040-pac/rt"]
 
